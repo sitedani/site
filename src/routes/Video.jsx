@@ -1,7 +1,8 @@
 import { videos } from "../data/data";
 import Footer from "../components/Footer";
 
-import image from "../assets/videoop1.png";
+import image from "../assets/banner.png";
+
 const Video = () => {
   return (
     <main className="w-full flex flex-col mt-24">
