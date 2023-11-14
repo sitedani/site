@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { BiLogoLinkedin, BiLogoInstagram, BiLogoTwitter } from "react-icons/bi";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { Link, Outlet } from "react-router-dom";
 
@@ -12,10 +13,10 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="w-full fixed top-0 left-0 flex justify-center items-center  h-24 bg-white font-mono shadow-xl text-[#8F5D46] px-5">
+      <nav className="w-full fixed top-0 left-0 flex justify-center items-center  h-24 bg-white font-semibold  shadow-xl text-[#8F5D46] px-5">
         <div className="w-[980px] flex justify-between">
           <div>
-            <img src="#" alt="Logo" />
+            <h3 className="text-xl cursor-default">Daniela Gentil</h3>
           </div>
           <div className="hidden md:flex gap-10">
             <ul className="flex gap-10">
@@ -48,6 +49,14 @@ const Navbar = () => {
                 rel="noreferrer"
               >
                 <BiLogoInstagram size={20} />
+              </a>
+
+              <a
+                href="https://api.whatsapp.com/send?phone=5511949839252"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsapp size={20} />
               </a>
             </ul>
           </div>

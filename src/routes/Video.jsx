@@ -7,18 +7,18 @@ const Video = () => {
   return (
     <main className="w-full flex flex-col mt-24">
       <section
-        className="bg-black w-full h-64"
+        className="bg-black w-full h-96"
         style={{
           backgroundImage: `url(${image})`,
           backgroundPosition: "center",
           WebkitBackgroundSize: "cover",
         }}
       >
-        <div className="flex flex-col items-center justify-center w-full h-full ">
-          <p className="text-white text-center w-9/12">
+        <div className="flex flex-col items-center justify-center w-full h-full  ">
+          <p className="text-white text-center w-9/12 text-2xl">
             Ao longo da minha jornada fui me especializando na construção de
             reportagens, boletins, stand-up, links, offs, sonoras, passagens; e
-            pretendo aprender a arte da edição e decupagem em breve
+            pretendo aprender a arte da edição e decupagem em breve.
           </p>
         </div>
       </section>

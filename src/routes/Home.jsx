@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 
 import image1 from "../assets/1.jpeg";
-import image4 from "../assets/4.jpeg";
+import image4 from "../assets/portifolio.png";
 
 import {
   BiLogoLinkedin,
@@ -11,10 +11,12 @@ import {
   BiPlayCircle,
 } from "react-icons/bi";
 
+import { FaWhatsapp } from "react-icons/fa";
+
 const Home = () => {
   return (
     <>
-      <main className="w-full mt-4 text-[#94857B]">
+      <main className="w-full mt-4 text-[#94857B] ">
         <section className="w-full h-full flex items-center justify-center ">
           <div className="w-full h-full flex flex-wrap justify-center  items-center py-5 mt-24">
             <div className="w-[490px] h-[820px] p-8 bg-[#1F2122] rounded-3xl max-lg:h-full max-lg:w-[90%]">
@@ -25,11 +27,13 @@ const Home = () => {
               />
             </div>
             <div className="w-[490px] h-[820px] text-center p-8 bg-[#1F2122] rounded-3xl flex flex-col justify-center max-lg:w-[90%] items-center ">
-              <h2 className="mb-2 text-8xl text-[#8F5D46] max-md:text-7xl">
+              <h2 className="mb-2 text-8xl text-[#ffffff] max-md:text-7xl">
                 Daniela
               </h2>
-              <span className="mb-10">Jornalista | Redatora | Repórter</span>
-              <p className="text-justify">
+              <span className="mb-10 text-[#ffffff]">
+                Jornalista | Redatora | Repórter
+              </span>
+              <p className="text-justify font-semibold ]">
                 Olá! Sou Daniela, uma jornalista em formação apaixonada pela
                 arte da comunicação. Minha jornada profissional é uma mistura de
                 experiências e uma busca constante por significado. Nessa
@@ -46,15 +50,15 @@ const Home = () => {
 
         <section className="w-full h-full flex items-center justify-center ">
           <div className="w-full h-full flex flex-wrap justify-center  items-center py-5 mt-24">
-            <div className="w-[490px] h-[820px] p-8 bg-[#1F2122] rounded-3xl max-lg:h-full max-lg:w-[90%]">
+            <div className="w-[490px] h-[720px] p-8 bg-[#1F2122] rounded-3xl max-lg:h-full max-lg:w-[90%]">
               <img
                 src={image4}
                 alt="Minha imagem pessoal"
-                className="w-full h-full "
+                className="w-full h-[650px] "
               />
             </div>
-            <div className="w-[490px] h-[820px] text-center p-8 bg-[#1F2122] rounded-3xl flex flex-col justify-center max-lg:w-[90%] items-center ">
-              <h2 className="mb-2 text-8xl text-[#8F5D46] max-md:text-6xl">
+            <div className="w-[490px] h-[720px] text-center p-8 bg-[#1F2122] rounded-3xl flex flex-col justify-center max-lg:w-[90%] items-center ">
+              <h2 className="mb-2 text-7xl text-[#FFFFFF] max-md:text-6xl">
                 Portifólio
               </h2>
               <p className="text-justify py-5">
@@ -66,7 +70,7 @@ const Home = () => {
                 aparentemente comum. Seja bem-vindo e descubra o mundo através
                 dos meus olhos e palavras.
               </p>
-              <div className="flex flex-wrap justify-center items-center gap-4">
+              <div className="flex flex-wrap justify-center items-center gap-4 text-[#FFFFFF]">
                 <a
                   href="https://cursoreportertv.com.br/novo/"
                   target="_blank"
@@ -92,9 +96,8 @@ const Home = () => {
 
         <section className="w-full h-[460px] flex flex-col items-center justify-center ">
           <div className="w-[980px] h-[340px] flex flex-col items-center justify-center max-lg:w-[90%] rounded-3xl gap-3 bg-[#1F2122]">
-            <h2 className="uppercase text-4xl">CONTATO</h2>
-            <p className="text-sm">E-mail: ⤵️</p>
-            <p className="text-sm">danielagentil@icloud.com</p>
+            <h2 className="uppercase text-4xl text-[#FFFFFF]">CONTATO</h2>
+            <p className="text-xl">danielagentil@icloud.com</p>
 
             <div className="flex gap-3">
               <a
@@ -102,21 +105,28 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <BiLogoLinkedin size={20} />
+                <BiLogoLinkedin size={30} />
               </a>
               <a
                 href="https://twitter.com/DanielaGentil1"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BiLogoTwitter size={20} />
+                <BiLogoTwitter size={30} />
               </a>
               <a
                 href="https://instagram.com/danielagentill"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BiLogoInstagram size={20} />
+                <BiLogoInstagram size={30} />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511949839252"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsapp size={30} />
               </a>
             </div>
           </div>
