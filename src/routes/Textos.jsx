@@ -6,19 +6,20 @@ const Textos = () => {
     <main className="w-full flex flex-col mt-24 ">
       <section className="w-full h-64 bg-[#8F5D46]">
         <div className="flex flex-col items-center justify-center w-full h-full ">
-          <p className="text-center w-9/12 text-[#FFFFFF] text-xl">
+          <p className="text-center w-9/12 text-[#FFFFFF] text-xl max-md:text-lg max-sm:text-base">
             Ao longo da minha jornada, publiquei textos para sites e blogs em
             diversos veículos, como Lab Dicas Jornalismo, OC Publicidade, Portal
             Vidro Impresso, Amelco, WR Glass e Meu Vidraceiro, entre outros.
           </p>
         </div>
       </section>
+
       <section className="w-full p-7">
         <div className="w-[100%] flex flex-wrap gap-6 items-center justify-center font-semibold">
           {textos.map((items) => {
             const { id, titulo, image, textoLink } = items;
             return (
-              <div key={id}>
+              <div key={id} className="">
                 <a
                   href={textoLink}
                   target="_blank"

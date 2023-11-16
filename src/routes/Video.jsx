@@ -15,7 +15,7 @@ const Video = () => {
         }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full  ">
-          <p className="text-white text-center w-9/12 text-2xl">
+          <p className="text-white text-center w-9/12 text-2xl max-md:text-lg">
             Ao longo da minha jornada fui me especializando na construção de
             reportagens, boletins, stand-up, links, offs, sonoras, passagens; e
             pretendo aprender a arte da edição e decupagem em breve.

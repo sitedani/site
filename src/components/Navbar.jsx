@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="w-full fixed top-0 left-0 flex justify-center items-center  h-24 bg-white font-semibold  shadow-xl text-[#8F5D46] px-5">
+      <nav className="w-full fixed top-0 left-0 flex justify-center items-center  h-24 bg-white font-semibold  shadow-xl text-[#8F5D46] px-10">
         <div className="w-[980px] flex justify-between">
           <div>
             <h3 className="text-xl cursor-default">Daniela Gentil</h3>
