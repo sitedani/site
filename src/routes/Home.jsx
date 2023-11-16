@@ -30,7 +30,7 @@ const Home = () => {
                 Jornalista | Redatora | Repórter
               </span>
               <p className="text-justify font-semibold max-sm:w-[220px] max-sm:text-center">
-                Olá! Sou Daniela, uma jornalista em formação apaixonada pela
+                Olá! Sou Daniela, uma jornalista em construção apaixonada pela
                 arte da comunicação. Minha jornada profissional é uma mistura de
                 experiências e uma busca constante por significado. Nessa
                 jornada compartilhei histórias envolventes através de diferentes
