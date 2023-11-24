@@ -30,6 +30,10 @@ export const videos = [
     id: 6,
     video: "https://www.youtube.com/embed/1l-ZCeel9HQ?si=9oSgK9OZB1AzLnHu",
   },
+  {
+    id: 7,
+    video: "https://www.youtube.com/embed/hjMurKBVKBk?si=LUOzMQcKpUypWySx>",
+  },
 ];
 
 export const textos = [
