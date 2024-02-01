@@ -40,7 +40,7 @@ export const videos = [
   },
   {
     id: 9,
-    video: "https://www.youtube.com/embed/zi9nFBq0C7E?si=B12A7ikv16rwq67S",
+    video: "https://www.youtube.com/embed/T0vXvrihUrU?si=rXXkrmvt523_Uqfx",
   },
 ];
 
