@@ -37,11 +37,11 @@ export const videos = [
   {
     id: 8,
     video: "https://www.youtube.com/embed/zi9nFBq0C7E?si=rz3wBZB3ZRFKUWU",
-  },,
+  },
   {
     id: 9,
     video: "https://www.youtube.com/embed/zi9nFBq0C7E?si=B12A7ikv16rwq67S",
-  },,
+  },
 ];
 
 export const textos = [
